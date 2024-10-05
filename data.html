@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sistem Data</title>
+    <style>
+        .tx{
+            display: block;
+            padding: 5px;
+        }
+        .box{
+            margin:0 auto;
+            max-width: 600px;
+            padding: 13px;
+            background-color: #CDCDCD;
+        }
+        .each{
+            border: solid red 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Sistem Data</h1>
+    <div class="box">
+        
+    </div>
+    <script type="text/javascript" charset="utf-8">
+        function CE(text){
+            let ce = document.createElement("span");
+            ce.innerText = text;
+            
+            document.querySelector(".box").appendChild(ce);
+            ce.classList.add("tx")
+        }
+    
+        let xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://hakimdaniel.github.io/batch05/data.json", true); // Pastikan data.json berada dalam direktori yang sama
+        
+        xhr.onreadystatechange = function(){
+            if (xhr.readyState === 4 && xhr.status === 200){
+               let data = xhr.responseText;
+               let jsonData = JSON.parse(data);
+               
+               // Iterasi melalui setiap pengguna
+               jsonData.users.forEach(user => {
+                   Object.entries(user).forEach(([key, value]) => {
+                       CE(`${key}: ${value}`);
+                   });
+                   CE('----------------'); // Pemisah untuk setiap pengguna
+               });
+            }
+        };
+        
+        xhr.send();
+    </script>
+</body>
+</html>

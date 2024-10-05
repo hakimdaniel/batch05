@@ -1,0 +1,29 @@
+{
+    "users":
+    [
+        {
+            "id":1,
+            "name":"Daniel Hakim",
+            "message":"Saya suka semua jenis coding kecuali Assembly!",
+            "age":19
+        },
+        {
+            "id":2,
+            "name":"Ammar Iskandar",
+            "message":"Saya seorang cikgu!",
+            "age":19
+        },
+        {
+            "id":3,
+            "name":"Danish Anosh",
+            "message":"Saya seorang Mekanik!",
+            "age":18
+        },
+        {
+            "id":4,
+            "name":"Ammar Iskandar",
+            "message":"Saya seorang cikgu!",
+            "age":19
+        }
+    ]
+}
