@@ -116,7 +116,7 @@ const encodedUrl = encodeURIComponent(currentUrl);
 
 let unlocked = document.getElementById("no").textContent
 // Buat pautan WhatsApp
-const whatsappLink = `https://api.whatsapp.com/send/?text=${unlocked}${encodedUrl}`;
+const whatsappLink = `https://api.whatsapp.com/send/?text=${unlocked}%20di%20${encodedUrl}`;
 
 // Paparkan pautan WhatsApp
 return whatsappLink;
