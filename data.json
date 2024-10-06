@@ -36,6 +36,11 @@
             "name":"Halim",
             "message":"Hidup ini harus enjoy dan perlu balance",
             "age":18
-        }
+        },
+        {
+            "id":7,
+            "name":"Herry",
+            "message":"hidupkan ada busy kerja dan perlukan",
+            "age":19
     ]
 }
