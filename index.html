@@ -40,7 +40,7 @@
           </div> -->
         </div>
       </div>
-      <h1 class="text-center display-4 fw-bold">Character <span id="no"></span> Unlocked</h1>
+      <h1 class="text-center display-4 fw-bold"><span id="no"></span></h1>
       <div class="container mt-3 p-4 bg-primary text-light rounded-4" style="max-width: 700px;">
         <div class="row">
             <div class="column">
@@ -102,7 +102,7 @@
         }else{
         document.getElementById('name').innerText = test.name
         document.getElementById('msg').innerText = test.message
-        document.getElementById('no').innerText = test.id
+        document.getElementById('no').innerText = "Character "+test.id+" unlocked"
         document.getElementById('age').innerText = test.age+" tahun"
         }
       })
