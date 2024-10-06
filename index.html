@@ -78,13 +78,13 @@
         // get specific param
         let id = params.get('id');
 
-        id = id - 1
         const _0 = "."
       fetch('data'+_0+x7+J2)
       .then(resp => {
           return resp.json()
       })
       .then(data => {
+        id = id - 1
         let test = data.users[id]
         if(params.get('id') === null){
           alert("Masukkan id di ruangan search.")
