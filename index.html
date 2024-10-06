@@ -79,7 +79,7 @@
 
         id = id - 1
 
-      fetch('/data.json')
+      fetch('data.json')
       .then(resp => resp.json())
       .then(data => {
         let test = data.users[id]
