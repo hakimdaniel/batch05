@@ -80,7 +80,9 @@
         id = id - 1
 
       fetch('data.json')
-      .then(resp => resp.json())
+      .then(resp => {
+          return resp.json()
+      })
       .then(data => {
         let test = data.users[id]
         if(params.get('id') === null){
