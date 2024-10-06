@@ -30,6 +30,12 @@
             "name":"Asyraf Mat Kawi",
             "message":"Alhamdulillah, berusaha hingga berjaya.",
             "age":19
+        },
+        {
+            "id":6,
+            "name":"Halim",
+            "message":"Hidup ini harus enjoy dan perlu balance",
+            "age":18
         }
     ]
 }
