@@ -9,20 +9,20 @@
         },
         {
             "id":2,
-            "name":"Ammar Iskandar",
-            "message":"Saya seorang cikgu!",
-            "age":19
+            "name":"Danish Anosh",
+            "message":"Saya seorang mekanik!",
+            "age":18
         },
         {
             "id":3,
-            "name":"Danish Anosh",
-            "message":"Saya seorang Mekanik!",
+            "name":"Ammar Iskandar",
+            "message":"Setiap yang sesuatu ada hikmahnya.",
             "age":18
         },
         {
             "id":4,
-            "name":"Ammar Iskandar",
-            "message":"Saya seorang cikgu!",
+            "name":"Hafiz Haiqal",
+            "message":"Pernah menjadi terkenal di bilik guru lelaki.",
             "age":19
         }
     ]
