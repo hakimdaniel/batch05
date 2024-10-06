@@ -26,7 +26,7 @@
           <div>
             This website is develop by Daniel Hakim!
           </div>
-         <a href="/data.json">#sistem data</a>
+         <a href="batch05/data.json">#sistem data</a>
           <!-- <div class="dropdown mt-3">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
               Dropdown button
@@ -87,7 +87,7 @@
       .then(data => {
         let test = data.users[id]
         if(params.get('id') === null){
-          alert("Cari id di ruangan search.")
+          alert("Masukkan id di ruangan search.")
         } else if(!test){
           document.getElementById('name').innerText = "User not found!"
           document.getElementById('age').innerText = "Please try again later."
