@@ -24,6 +24,12 @@
             "name":"Hafiz Haiqal",
             "message":"Pernah menjadi terkenal di bilik guru lelaki.",
             "age":19
+        },
+        {
+            "id":5,
+            "name":"Asyraf Mat Kawi",
+            "message":"Alhamdulillah, berusaha hingga berjaya.",
+            "age":19
         }
     ]
 }
